@@ -14,7 +14,10 @@ html,body{background-color: #0093E9;
     text-indent:1rem;
     word-spacing: .5rem;font-weight: bold;
 }
-#about{background-color: #D9AFD9;position: relative;background-image: linear-gradient(0deg, #D9AFD9 0%, #97D9E1 100%);border-radius: 2rem;margin-top: 3rem;}    
+#about{background: #667db6;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #667db6, #0082c8, #0082c8, #667db6);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #667db6, #0082c8, #0082c8, #667db6); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    position: relative;border-radius: 2rem;margin-top: 3rem;}    
 .entro{font-weight: bold;}
 .hero-text{font-weight: bold;
     text-align: center;
@@ -48,8 +51,10 @@ border-radius: 2rem;
         background-image: linear-gradient(135deg, #8BC6EC 0%, #9599E2 100%);
         .col{margin:.5rem .1rem;}
         }section img{margin: auto;}.row img{margin: auto;}.col img{margin: auto;}img{margin: auto;border-radius: 1.8rem;box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px, rgba(17, 17, 26, 0.05) 0px 8px 32px;}
-        #projects .row,#projects{border:.4rem solid #212121;border-radius: 1.8rem;padding: .8rem;}#projects h3{border:.5rem ridge #212121;background-color: #212121;color: #f1f1f1;border-radius: 1.8rem;}#projects{background-color: #FFDEE9;
-            background-image: linear-gradient(0deg, #FFDEE9 0%, #B5FFFC 100%);}
+        #projects .row{padding: .8rem;gap:1rem;}#projects .col,#projects{border:.4rem solid #212121;border-radius: .8rem;padding: .5rem;}#projects h3{border:.5rem ridge #212121;background-color: #212121;color: #f1f1f1;border-radius: 1.8rem;}#projects{background: #74ebd5;  /* fallback for old browsers */
+            background: -webkit-linear-gradient(to bottom, #ACB6E5, #74ebd5);  /* Chrome 10-25, Safari 5.1-6 */
+            background: linear-gradient(to bottom, #ACB6E5, #74ebd5); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+            }
 .social-icons {font-size:3rem; cursor: pointer;}
 .fa-linkedin:hover,.fa-github:hover,.fa-envelope-o:hover{color:#f1f1f1;}.fab,.fa{color: #212121}footer{background-color: #0093E9;
     background-image: linear-gradient(160deg, #0093E9 0%, #80D0C7 100%);;text-align: center;border-top-left-radius: 1.5rem;}#resume{border:.5rem ridge #f1f1f1;background-color: #212121;border-radius: 1.8rem;}#resume i{color:#f1f1f1;}#about a{color:#f1f1f1;text-decoration: none;}
