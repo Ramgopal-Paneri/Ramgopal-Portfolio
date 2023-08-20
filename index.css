@@ -5,9 +5,16 @@ html,body{background-color: #0093E9;
     background-image: linear-gradient(160deg, #0093E9 0%, #80D0C7 100%);
 }.nav-item .nav-link:hover{background-color: #212121;color:#0093E9;border-radius: 1.3rem;}
 .nav-item .nav-link{font-size: 1.5rem;font-weight: bold;color: #f1f1f1;text-decoration: underline;}
+.navbar-brand{
+    font-size: 1.35rem !important;
+    font-family: cursive;
+}
 *{box-sizing: border-box;}
 .hero_title {
+    font-family: cursive;
     font-size: 3.5rem;
+    color:transparent;
+-webkit-text-stroke: .1rem #212121;
 }
 .hero_desc {
     font-size: 2rem;
@@ -27,7 +34,15 @@ html,body{background-color: #0093E9;
     transform: translate(-50%, -50%);
     color:#212121;
     background-color: hsla(0, 23%, 97%, 0.87);
-}@media(min-width:319px) and (max-width:500px){.hero-text{top: 70%;background-color:hsla(0, 20%, 98%, 0.562);}}
+border-radius: 6%;
+}
+@media(min-width:319px) and (max-width:350px){.hero-text{top: 100%;}#resume-id{margin-top:65%;}}
+
+@media(min-width:351px) and (max-width:380px){.hero-text{top: 97%;}#resume-id{margin-top:51%;}}
+
+@media(min-width:381px) and (max-width:500px){.hero-text{top: 93%;}#resume-id{margin-top:36%;}}
+
+
 .hero_desc{font-weight: bolder;}
 #education{border:.4rem solid #212121;background-color: #8BC6EC;
     background-image: linear-gradient(135deg, #8BC6EC 0%, #9599E2 100%);
